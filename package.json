@@ -1,0 +1,19 @@
+{
+  "name": "expressfun",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha 'tests/**/*.js' --recursive --timeout 30000 --exit"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0",
+    "supertest": "^6.1.6"
+  }
+}
