@@ -9,7 +9,7 @@ function resolveAfter1Seconds() {
 async function greetings(name) {
     let message = "Hello ";
     message = message.concat(resolveAfter1Seconds(), ' ');
-    message = message.concat(name, ' ');
+    message = message.concat(name);
     return message;
 }
 

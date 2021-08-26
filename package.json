@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "test": "mocha 'tests/**/*.js' --recursive --timeout 30000 --exit"
+    "test": "mocha 'test/**/*.js' --recursive --timeout 30000 --exit"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
