@@ -5,6 +5,6 @@ describe("GET /", function () {
     it("responds with a greeting", async function () {
         const name = "Mira"
         let greeting = await greetings(name);
-        expect(greeting).to.equal("Hello nice to meet you Mira");
+        expect(greeting).to.equal(`Hello nice to meet you ${name}`);
     });
 });
