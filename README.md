@@ -62,3 +62,4 @@ npm test
    * Order the users by age - ascending and desc
    * Remove users that have quotes that are over 10 characters
    * The first user whose age is even
+   * Get two anime quotes in parallel and wait for both of them to complete
