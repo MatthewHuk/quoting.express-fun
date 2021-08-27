@@ -36,8 +36,8 @@ npm test
 
 2. There is a failing test - lets fix it!
 
-3. Create a route to add & return a new user.  
-    This route will take a username as a parameter, and an age as a query
+3. We want to add a user to our system.  Create a new api route that adds a new user and returns it.
+   This route will take a username as a parameter, and an age as a query
     
     -Note: Create an array with an object to hold a User (pre-populate this).  (This is done locally so that we can fake a db).
     * Add the user to our local object - make sure its unique.
