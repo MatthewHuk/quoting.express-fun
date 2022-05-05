@@ -52,7 +52,8 @@ npm test
 
 4. Just having users is boring!  Let's make a new route that returns an anime quote (from a public api)
     * public api - https://animechan.vercel.app/guide#default-quotes
-    * add the "character" and quote to our User object
+    * Get two anime quotes in parallel and wait for both of them to complete
+    * add the "character" and quote of one of the two quotes (chosen at random) to our User object
 
 5. Create a function to add a missing quote to our users who don't have one yet
    
@@ -62,4 +63,3 @@ npm test
    * Order the users by age - ascending and desc
    * Remove users that have quotes that are over 10 characters
    * The first user whose age is even
-   * Get two anime quotes in parallel and wait for both of them to complete
