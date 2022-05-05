@@ -63,3 +63,4 @@ npm test
    * Order the users by age - ascending and desc
    * Remove users that have quotes that are over 10 characters
    * The first user whose age is even
+   * A count of users grouped by an age range of 0-10, 11-17, 18-24, 25-39 and 40+.
