@@ -41,7 +41,7 @@ npm test
     
     -Note: Create an array with an object to hold a User (pre-populate this).  (This is done locally so that we can fake a db).
     * Add the user to our local object - make sure its unique.
-    * If they don't supply an age then take the length of their username + email as their age
+    * If they don't supply an age then take the length of their username as their age
     * Remove spaces from the username and make sure it is lower case.
     * Handle case for an existing user
     * Return the user object as json with appropriate status code.
